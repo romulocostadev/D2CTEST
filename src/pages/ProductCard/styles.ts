@@ -10,6 +10,7 @@ import {
 } from '@ant-design/icons';
 
 export const ProductCard = styled(Layout)`
+  margin: 50px 50px;
   width: 292px;
   height: 609px;
   justify-content: flex-start;
@@ -642,8 +643,8 @@ export const RadioCustomFirst = styled.div`
   align-items: center;
   padding: 5px 16px 5px 16px;
   background-color: #f88f1f;
-  box-shadow: inset 1px 0px 0px rgba(1, 1, 1, 1),
-    inset 0px -1px 0px rgba(1, 1, 1, 1), inset 0px 1px 0px rgba(1, 1, 1, 1);
+  box-shadow: inset 1px 0px 0px #d9d9d9, inset 0px -1px 0px #d9d9d9,
+    inset 0px 1px 0px #d9d9d9;
 `;
 export const RadioCustomFirstLabel = styled.h1`
   font-family: Roboto;
@@ -673,8 +674,7 @@ export const RadioCustomCenter = styled.div`
   align-items: center;
   padding: 5px 16px 5px 16px;
   background-color: #ffffff;
-  box-shadow: inset 0px -1px 0px rgba(1, 1, 1, 1),
-    inset 0px 1px 0px rgba(1, 1, 1, 1);
+  box-shadow: inset 0px -1px 0px #d9d9d9, inset 0px 1px 0px #d9d9d9;
 `;
 export const RadioCustomCenterLabel = styled.h1`
   font-family: Roboto;
@@ -704,8 +704,8 @@ export const RadioCustomLast = styled.div`
   align-items: center;
   padding: 5px 16px 5px 16px;
   background-color: #ffffff;
-  box-shadow: inset -1px 0px 0px rgba(1, 1, 1, 1),
-    inset 0px -1px 0px rgba(1, 1, 1, 1), inset 0px 1px 0px rgba(1, 1, 1, 1);
+  box-shadow: inset -1px 0px 0px #d9d9d9, inset 0px -1px 0px #d9d9d9,
+    inset 0px 1px 0px #d9d9d9;
 `;
 export const RadioCustomLastLabel = styled.h1`
   font-family: Roboto;
