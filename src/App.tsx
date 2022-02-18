@@ -19,12 +19,12 @@ function App() {
   return (
     // <Provider store={store}>
     // <PersistGate persistor={persistor}>
-    <ConfigProvider locale={ptBR}>
-      <Router history={history}>
-        <Routes />
-        <GlobalStyle />
-      </Router>
-    </ConfigProvider>
+    // <ConfigProvider locale={ptBR}>
+    <Router history={history}>
+      <Routes />
+      <GlobalStyle />
+    </Router>
+    // </ConfigProvider>
     // </PersistGate>
     // </Provider>
   );
